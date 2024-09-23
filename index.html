@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14기몰</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <div class="header_top">
+            <div class="hamburger">
+                <span class="material-symbols-outlined mo_menu">
+                    menu
+                </span>
+                <div class="mode">
+                    <span class="material-symbols-outlined sun">
+                        light_mode
+                    </span>
+                    <span class="material-symbols-outlined moon">
+                        dark_mode
+                    </span>
+                </div>
+            </div>
+
+    
+            <h1><a href="#"><img src="images/logo.png" alt=""></a></h1>
+    
+            <div class="spotmenu">
+                <!-- 로그인전 -->
+                <div class="login_before">
+                    <a href="#">로그인</a>
+                    <a href="#">회원가입</a>
+                    <a href="#">장바구니</a>
+                    <a href="#">찜상품</a>
+                    <a href="#">마이페이지</a>
+                    <a href="#">배송조회</a>
+                    <a href="#">고객센터</a>
+                </div>
+                <!-- 로그인후 -->
+                <div class="login_after">
+                    <a href="#">로그아웃</a>
+                    <a href="#">장바구니</a>
+                    <a href="#">찜상품</a>
+                    <a href="#">마이페이지</a>
+                    <a href="#">배송조회</a>
+                    <a href="#">고객센터</a>
+                </div>
+
+            </div>
+    
+            <div class="search_box">
+                <input type="text" placeholder="검색">
+                <input type="image" src="images/btn_search.png" alt="확인">
+            </div>
+        </div>
+
+        <nav>
+            <ul class="gnb">
+                <li>
+                    <a href="#">기획전</a>
+                    <ul class="lnb">
+                        <li><a href="#">기획전</a></li>
+                        <li><a href="#">정기구독</a></li>
+                        <li><a href="#">쿠쿠티비</a></li>
+                        <li><a href="#">쿠쿠플러스</a></li>
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">기획</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">정기구독</a>
+                    <ul class="lnb">
+                        <li><a href="#">기획전</a></li>
+                        <li><a href="#">정기구독</a></li>
+                        <li><a href="#">쿠쿠티비</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">쿠쿠티비</a>
+                    <ul class="lnb">
+                        <li><a href="#">기획전</a></li>
+                        <li><a href="#">정기구독</a></li>
+                        <li><a href="#">쿠쿠티비</a></li>
+                        <li><a href="#">쿠쿠플러스</a></li>
+                        <li><a href="#">이벤트</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">쿠쿠플러스</a>
+                </li>
+                <li>
+                    <a href="#">마이쿠쿠</a>
+                </li>
+                <li>
+                    <a href="#">렌탈상담</a>
+                </li>
+                <li>
+                    <a href="#">고객센터</a>
+                </li>
+                <li>
+                    <a href="#">이벤트</a>
+                </li>
+                <li>
+                    <a href="#">스토리</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="lnb_bg"></div>
+    </header>
+
+    <div id="visual">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/myvisual1.jpg" alt="">
+                    <div class="text_box">
+                        <strong>
+                            취향에 인테리어를 맞추다
+                            <span>NEW 인덕션 레인지</span>
+                        </strong>
+                        <div class="small">
+                            <span>#최대 73%할인</span>
+                            <span>#추첨을 통한 사은품 증정</span>
+                            <span>#신규회원 추가 15%할인(일부모델 제외)</span>
+                        </div>
+                        <a href="#">자세히보기</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/myvisual3.jpg" alt="">
+                    <div class="text_box">
+                        <strong>
+                            두가지 압력을 제어하다
+                            <br><span>BEST 트윈프레셔 밥솥</span>
+                        </strong>
+                        <div class="small">
+                            <span>#최대 63%할인</span>
+                            <span>#추첨을 통한 사은품 증정</span>
+                            <span>#신규회원 추가 15%할인(일부모델 제외)</span>
+                        </div>
+                        <a href="#">자세히보기</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/myvisual2.jpg" alt="">
+                    <div class="text_box">
+                        <strong>
+                            작은 변화로 즐거운 미식생활
+                            <span>쿠쿠 음식물처리기</span>
+                        </strong>
+                        <div class="small">
+                            <span>#최대 50%할인</span>
+                            <span>#추첨을 통한 사은품 증정</span>
+                            <span>#신규회원 추가 15%할인(일부모델 제외)</span>
+                        </div>
+                        <a href="#">자세히보기</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div id="section_box">
+        <section id="section1">
+            <div class="centerbox1200">
+                <h2><span>BEST ITEM</span></h2>
+
+                <!-- 보이는 목록은 8개로 설정 -->
+                <ul class="cont">
+                    <!-- 등록된 데이터가 없는경우 -->
+                    <li class="no-data">
+                        등록된 데이터가 없습니다.
+                    </li>
+                    <!-- 등록된 데이터가 없는경우 여기까지 -->
+
+
+
+                    <li>
+                        <a href="#">
+                            <img src="images/bestitem1.jpg" alt="">
+                            <strong>
+                                사일런스 오브제 CRP-OHTRO610FWM
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>440,000</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/bestitem2.jpg" alt="">
+                            <strong>
+                                사일런스 프로 CRP-PHTRO610FSM
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon_pop">인기상품</span>
+                                <span class="icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>350,000</span>원</p>
+                            <p class="review">리뷰<span>2,500</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/bestitem3.png" alt="">
+                            <strong>
+                                헤어 아이론 CBI-ACLTS10LW
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon_pop">인기상품</span>
+                                <span class="icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>347,650</span>원</p>
+                            <p class="review">리뷰<span>1,320</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/bestitem4.jpg" alt="">
+                            <strong>
+                                화이트 로봇청소 CRVC-AALM20INWM
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon_pop">인기상품</span>
+                                <span class="icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>360,000</span>원</p>
+                            <p class="review">리뷰<span>1,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/bestitem5.png" alt="">
+                            <strong>
+                                안마의자 CMS-G210NW
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon_pop">인기상품</span>
+                                <span class="icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>
+                                1,790,000</span>원</p>
+                            <p class="review">리뷰<span>1,200</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/bestitem6.jpg" alt="">
+                            <strong>
+                                사일런스 밥솥 CRP-NHTR0610FW
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon_pop">인기상품</span>
+                                <span class="icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>500,000</span>원</p>
+                            <p class="review">리뷰<span>1,410</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/bestitem7.png" alt="">
+                            <strong>
+                                핸디형 청소 CVC-EH20NG
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon_pop">인기상품</span>
+                                <span class="icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>159,000</span>원</p>
+                            <p class="review">리뷰<span>1,300</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/bestitem8.jpg" alt="">
+                            <strong>
+                                에어프라이어 (8L) CAF-E0810TW
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon_pop">인기상품</span>
+                                <span class="icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>150,000</span>원</p>
+                            <p class="review">리뷰<span>1,800</span>개</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="section2">
+            <div class="centerbox1200">
+                <h2>
+                    <span><em>50%</em> SALE</span>
+                </h2>
+
+
+                <!-- Swiper -->
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper cont">
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/discount1.png" alt="">
+                                <div class="spec">
+                                    <strong>
+                                        쿠쿠비데
+                                    </strong>
+                                    <div class="icon_box">
+                                        <span class="icon_pop">8way무브노즐</span><br>
+                                        <span class="icon_soldout">풀스테인리스노즐</span>
+                                    </div>
+                                    <p class="price"><!-- <span>25,900</span>원 -->비데</p>
+                                    <p class="review"><!-- 리뷰<span>2,900</span>개 -->CBT-QSB1041W</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/discount2.jpg" alt="">
+                                <div class="spec">
+                                    <strong>
+                                        쿠쿠블렌더
+                                    </strong>
+                                    <div class="icon_box">
+                                        <span class="icon_pop">트라이탄 용기</span><br>
+                                        <span class="icon_soldout">2L 대용량 용기</span>
+                                    </div>
+                                    <p class="price"><!-- <span>25,900</span>원 -->크로스컷 블렌더</p>
+                                    <p class="review"><!-- 리뷰<span>2,900</span>개 -->CFM-G200CW</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/discount3.gif" alt="">
+                                <div class="spec">
+                                    <strong>
+                                        쿠쿠정수기
+                                    </strong>
+                                    <div class="icon_box">
+                                        <span class="icon_pop">100ºC</span><br>
+                                        <span class="icon_soldout">끓인물</span>
+                                    </div>
+                                    <p class="price"><!-- <span>25,900</span>원 -->#100도<br>끓인물정수기</p>
+                                    <p class="review"><!-- 리뷰<span>2,900</span>개 -->[단 5일간 <br>1년 무료!]</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/discount4.jpg" alt="">
+                                <div class="spec">
+                                    <strong>
+                                        쿠쿠직수정수기
+                                    </strong>
+                                    <div class="icon_box">
+                                        <span class="icon_pop">100ºC</span><br>
+                                        <span class="icon_soldout">끓인물</span>
+                                    </div>
+                                    <p class="price"><!-- <span>25,900</span>원 -->자동살균<br>직수정수기</p>
+                                    <p class="review"><!-- 리뷰<span>2,900</span>개 -->[본사 단독 <br>40% 할인]</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/discount6.jpg" alt="">
+                                <div class="spec">
+                                    <strong>
+                                        쿠쿠 마스터셰프 밥솥
+                                    </strong>
+                                    <div class="icon_box">
+                                        <span class="icon_pop">1등급</span><br>
+                                        <span class="icon_soldout">트윈프레셔</span>
+                                    </div>
+                                    <p class="price"><!-- <span>25,900</span>원 -->마스터셰프 밥솥</p>
+                                    <p class="review"><!-- 리뷰<span>2,900</span>개 -->(6인용, <br>그레이스 브라운)</p>
+                                </div>
+                            </a>
+                        </div>
+                      <!--   <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/item3.jpg" alt="">
+                                <div class="spec">
+                                    <strong>
+                                        2024 NEW 삼성TV OLED 70인치
+                                    </strong>
+                                    <div class="icon_box">
+                                        <span class="icon_pop">인기상품</span>
+                                        <span class="icon_soldout">매진임박</span>
+                                    </div>
+                                    <p class="price"><span>25,900</span>원</p>
+                                    <p class="review">리뷰<span>2,900</span>개</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/item4.jpg" alt="">
+                                <div class="spec">
+                                    <strong>
+                                        2024 NEW 삼성TV OLED 70인치
+                                    </strong>
+                                    <div class="icon_box">
+                                        <span class="icon_pop">인기상품</span>
+                                        <span class="icon_soldout">매진임박</span>
+                                    </div>
+                                    <p class="price"><span>25,900</span>원</p>
+                                    <p class="review">리뷰<span>2,900</span>개</p>
+                                </div>
+                            </a>
+                        </div> -->
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="section3">
+            <div class="centerbox1200">
+                <h2><span>NEW ITEM</span></h2>
+
+                <!-- 보이는 목록은 8개로 설정 -->
+                <ul class="cont">
+                    <!-- 등록된 데이터가 없는경우 -->
+                    <li class="no-data">
+                        등록된 데이터가 없습니다.
+                    </li>
+                    <!-- 등록된 데이터가 없는경우 여기까지 -->
+
+
+
+                    <li>
+                        <a href="#">
+                            <img src="images/newitem1.jpg" alt="">
+                            <strong>
+                                IH전기압력밥솥 6인용
+                                <br>CRP-DHAS069FW
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon_pop">인기상품</span>
+                                <span class="icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>230,000</span>원</p>
+                            <p class="review">리뷰<span>2,800</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/newitem2.jpg" alt="">
+                            <strong>
+                                IH전기압력밥솥 10인용
+                                <br>CRP-CHAS109FW
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>260,000</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/newitem3.jpg" alt="">
+                            <strong>
+                                트윈프레셔밥솥 6인용
+                                <br>CRP-FHTAS0610FW
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>260,000</span>원</p>
+                            <p class="review">리뷰<span>1,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/newitem4.jpg" alt="">
+                            <strong>
+                                트윈프레셔밥솥 10인용
+                                <br>CRP-FHTAS1010FW
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>290,000</span>원</p>
+                            <p class="review">리뷰<span>1,400</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/newitem5.jpg" alt="">
+                            <strong>
+                                트윈프레셔 마스터셰프
+                                사일런스 오브제 6인용
+                                <br>CRP-OHTR0610FWM
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>430,000</span>원</p>
+                            <p class="review">리뷰<span>1,600</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/newitem6.jpg" alt="">
+                            <strong>
+                                트윈프레셔 마스터셰프
+                                사일런스 오브제 6인용
+                                <br>CRP-OHTR0610FIM
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>430,000</span>원</p>
+                            <p class="review">리뷰<span>1,700</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/newitem7.png" alt="">
+                            <strong>                                
+                                트윈프레셔 마스터셰프
+                                사일런스 프로 6인용
+                                <br>CRP-PHTR0610FSM
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>340,000</span>원</p>
+                            <p class="review">리뷰<span>2,910</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/newitem8.jpg" alt="">
+                            <strong>
+                                트윈프레셔 마스터셰프
+                                사일런스 프로 6인용
+                                CRP-PHTR0610FDM
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>340,000</span>원</p>
+                            <p class="review">리뷰<span>1,830</span>개</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="section4">
+            <div class="centerbox1200">
+                <a href="#">
+                    <img src="images/banner.jpg" alt="선물코너 바로가기">
+                </a>
+            </div>
+        </section>
+        
+        <section id="section5">
+            <div class="centerbox1200">
+                <h2><span>쿠쿠렌탈 기획전</span></h2>
+
+                <!-- 보이는 목록은 6개로 설정 -->
+                <ul class="cont">
+                    <!-- 등록된 데이터가 없는경우 -->
+                    <li class="no-data">
+                        등록된 데이터가 없습니다.
+                    </li>
+                    <!-- 등록된 데이터가 없는경우 여기까지 -->
+
+
+
+                    <li>
+                        <a href="#">
+                            <img src="images/rental1.png" alt="">
+                            <strong>
+                                [유튜브라이브] 8월의 마지막 밥솥 라이브
+                            </strong>
+                            <div class="icon_box">
+                     <!--            <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span> -->
+
+                                올스텐 베스트 밥솥 총집합! 단 하루, 단 한시간!
+                            </div>
+<!--                             <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/rental2.png" alt="">
+                            <strong>
+                                [앱 다운 기획전] 쿠쿠몰 앱 다운로드 이벤트!
+                                
+                            </strong>
+                            <div class="icon_box">
+                               <!--  <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span> -->
+                                앱을 통한 신규 가입 시 2만 포인트 증정!
+                            </div>
+         <!--                    <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/rental3.png" alt="">
+                            <strong>
+                                [이달의추천템] 쿨하고 시원한 혜택이 쏟아진다! 
+                            </strong>
+                            <div class="icon_box">
+                          <!--       <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span> -->
+                                쿠쿠야 여름을 부탁해!
+                            </div>
+<!--                             <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/rental4.png" alt="">
+                            <strong>
+                                [카드프로모션기획전] 쿠쿠몰 전용 하나/국민카드 
+                            </strong>
+                            <div class="icon_box">
+                               <!--  <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span> -->
+                                최대 2만원 즉시 할인 프로모션 안내!
+                            </div>
+                            <!-- <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/rental5.png" alt="">
+                            <strong>
+                                <!-- 2024 NEW 삼성TV OLED 70인치 -->           
+                                [리퍼브특가전] 환경을 생각한 합리적 소비!
+                            </strong>
+                            <div class="icon_box">
+                              <!--   <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span> -->
+                                쿠쿠 리퍼브상품 특가전
+                            </div>
+            <!--                 <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/rental6.png" alt="">
+                            <strong>
+                                [계절가전 기획전] 지난 여름, 구매를 망설였다면?
+                            </strong>
+                            <div class="icon_box">
+                    <!--             <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span> -->
+                                숨 통이 탁 트이는 에어가전 특별전 
+                            </div>
+                            <!-- <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p> -->
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+
+        <div class="centerbox1200">
+            <div class="footerlogo"><img src="images/logo.png" alt=""></div>
+            <div class="footercontent">
+                <p>
+                    대표이사 : 구본학   본사 : 경상남도 양산시 유산공단2길14   사업자등록번호 : 337-87-00918  통신판매신고 : 제2017-경남양산-00367호
+
+<br>개인정보관리책임자 : 온라인유통팀 김광민   이메일 : cuckoomall@cuckoo.co.kr   구매안전서비스 : 에스크로가입정보웹사이트바로가기
+
+<br>COPYRIGHTⓒCUCKOO ELECTRONICS ALL RIGHTS RESERVED
+                </p>
+            </div>
+        </div>
+
+    </footer>
+
+    <div class="recent_prod">
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="images/newitem1.jpg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/newitem2.jpg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/newitem3.jpg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/newitem4.jpg" alt="">
+                </a>
+            </li>
+        </ul>
+        <a href="#" class="gotop">
+            <span class="material-symbols-outlined">
+                arrow_drop_up
+            </span>
+        </a>
+    </div>
+
+
+    <script src="script/jquery-3.7.1.js"></script>
+    <script src="script/action.js"></script>
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    $('.swiper-slide').eq(0).find('.text_box').addClass('on');
+    
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 0,
+      speed: 1000,
+      centeredSlides: true,
+      loop:true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+        on: {
+            slideChangeTransitionEnd: function () {
+                $('.text_box').removeClass('on');
+                $('.swiper-slide').eq(this.activeIndex).find('.text_box').addClass('on')
+            }
+        }
+    });
+
+
+    var swiper = new Swiper(".mySwiper2", {
+        slidesPerView:4,
+        spaceBetween: 30,
+        speed: 1000,
+        loop:true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        }
+    });
+  </script>
+</body>
+</html>
